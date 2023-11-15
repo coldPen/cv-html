@@ -1,9 +1,9 @@
-import Content from "./Content";
-import Sidebar from "./Sidebar";
+import Content from "./fr/Content";
+import Sidebar from "./fr/Sidebar";
 
 function CV() {
   return (
-    <div className="grid grid-cols-3 h-screen">
+    <div className="grid h-screen grid-cols-3">
       <Sidebar />
       <Content />
     </div>

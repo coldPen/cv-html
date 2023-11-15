@@ -1,8 +1,8 @@
-import { H2, H3, MainArticle, P } from "./Components";
+import { H2, H3, MainArticle, P } from "../Components";
 
 export default () => {
   return (
-    <aside className="col-span-1 flex flex-col items-start justify-center gap-4 bg-zinc-50 text-zinc-800 p-8">
+    <aside className="col-span-1 flex flex-col items-start justify-center  gap-4 bg-zinc-50 p-8 text-zinc-800">
       <MainArticle>
         <H2>À propos</H2>
         <P>
@@ -22,10 +22,10 @@ export default () => {
       </MainArticle>
       <MainArticle>
         <H2 className="text-lg font-bold uppercase">Coordonnées</H2>
-        <address className="not-italic flex flex-col gap-1">
+        <address className="flex flex-col gap-1 not-italic">
           <div>
             <H3>Téléphone</H3>
-            <a className="tracking-tight leading-tight" href="tel:+33645716476">
+            <a className="leading-tight tracking-tight" href="tel:+33645716476">
               06 45 71 64 76
             </a>
           </div>
@@ -44,12 +44,12 @@ export default () => {
               linkedin.com/in/llrx
             </a>
           </div>
-          <div>
+          {/* <div>
             <H3>Site</H3>
             <a className="leading-tight" href="https://lucas-leroux.dev/">
               lucas-leroux.dev
             </a>
-          </div>
+          </div> */}
           <div>
             <H3>Adresse</H3>
             <P>

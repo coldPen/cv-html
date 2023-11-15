@@ -8,92 +8,92 @@ import {
   Section,
   SubArticle,
   UL,
-} from "./Components";
+} from "../Components";
 
 export default () => {
   return (
-    <main className="col-span-2 p-8 flex flex-col gap-5 bg-white justify-center">
+    <main className="col-span-2 flex flex-col justify-center gap-5 bg-white p-8">
       <H1 className="text-zinc-700">
         <span className="text-3xl">Lucas Leroux</span>
-        <span className="text-lg">Développeur front-end</span>
+        <span className="text-lg">Front-end developer</span>
       </H1>
 
       <hr />
 
       <Section>
-        <H2 className="text-zinc-700">Postes occupés</H2>
+        <H2 className="text-zinc-700">Held positions</H2>
 
         <MainArticle>
-          <H3 className="text-zinc-700">Développeur web front-end</H3>
+          <H3 className="text-zinc-700">Front-end developer</H3>
           <H4 className="text-zinc-700">
             <span>Subclic</span>
-            <span>Mai 2022 - Auj.</span>
+            <span>May 2022 - Today</span>
           </H4>
           <UL className="text-zinc-500">
             <li>
-              Développement de l'application de gestion interne de l'entreprise
-              avec NextJS, TypeScript et MUI
+              Development of the company's internal management application with
+              NextJS, TypeScript and MUI
             </li>
-            <li>Rédaction de tests unitaires Jest et Testing Library</li>
-            <li>
-              Accompagnement dans la formation des développeurs de l'équipe
-            </li>
+            <li>Writing Jest and Testing Library unit tests</li>
+            <li>Support in training the team's developers</li>
+            <li>Involvement in UX design process</li>
           </UL>
         </MainArticle>
 
         <MainArticle>
-          <H3 className="text-zinc-700">Développeur web front-end</H3>
+          <H3 className="text-zinc-700">Front-end developer</H3>
           <H4 className="text-zinc-700">
             <span>Delko</span>
-            <span>Déc. 2020 - Mai 2022</span>
+            <span>December 2020 - May 2022</span>
           </H4>
           <UL className="text-zinc-500">
             <li>
-              Développement front d'un CRM interne pour le personnel et les
-              franchisés de la chaîne avec React, Redux et Material-UI
+              Front-end development of an internal CRM (administrative
+              management, product catalogue, etc.) for the chain's staff and
+              franchisees with React, Redux and Material-UI
             </li>
-            <li>
-              Rédaction de tests unitaires et d'intégration Jest et Enzyme
-            </li>
+            <li>Writing unit and integration tests with Jest and Enzyme</li>
           </UL>
         </MainArticle>
 
         <MainArticle>
-          <H3 className="text-zinc-700">Développeur web freelance</H3>
-          <H4 className="text-zinc-700">Oct. 2019 - Nov. 2020</H4>
+          <H3 className="text-zinc-700">Freelance web developer</H3>
+          <H4 className="text-zinc-700">October 2019 - November 2020</H4>
           <P className="text-zinc-500">
-            Développement de solutions web React / Gatsby / Eleventy
+            React / Gatsby / Eleventy web development
           </P>
         </MainArticle>
 
         <MainArticle>
-          <H3 className="text-zinc-700">Développeur web front-end</H3>
+          <H3 className="text-zinc-700">Front-end developer</H3>
           <H4 className="text-zinc-700">
             <span>WeCashUp</span>
-            <span>Juin 2016 - Juin 2018</span>
+            <span>June 2016 - June 2018</span>
           </H4>
           <P className="text-zinc-500">
-            Conception, développement et suivi d'applications web pour le
-            service de paiement universel WeCashup : formulaire de paiement,
-            interfaces back-office réalisés à l'aide de jQuery, ES6 et React
+            Design, development and monitoring of web applications for the
+            universal payment service WeCashUp: payment form, back-office
+            interfaces using jQuery, ES6 and React
           </P>
         </MainArticle>
       </Section>
 
       <Section>
-        <H2 className="text-zinc-700">Compétences professionnelles</H2>
+        <H2 className="text-zinc-700">Professional skills</H2>
 
         <MainArticle>
-          <H3 className="text-zinc-700">Langages</H3>
+          <H3 className="text-zinc-700">Languages</H3>
           <P className="text-zinc-500">TypeScript / JavaScript, HTML / CSS</P>
         </MainArticle>
 
         <MainArticle>
-          <H3 className="text-zinc-700">Frameworks / Librairies / Systèmes</H3>
+          <H3 className="text-zinc-700">
+            Frameworks / Libraries / Operating systems
+          </H3>
           <UL className="text-zinc-500">
             <li>
-              NextJS / React, Redux, Jest + Enzyme / Testing Library,
-              TailwindCSS, SASS et méthodologie BEM
+              NextJS / React, Redux, GraphQL / Apollo Client, Jest + Enzyme /
+              Testing Library, TailwindCSS, SASS and BEM methodology
             </li>
             <li>Manjaro Linux, MacOS, Bash, Git</li>
           </UL>
@@ -101,14 +101,14 @@ export default () => {
       </Section>
 
       <Section>
-        <H2 className="text-zinc-700">Formation</H2>
+        <H2 className="text-zinc-700">Training</H2>
 
         <MainArticle>
           <H3 className="text-zinc-700">Université de Poitiers</H3>
           <H4 className="text-zinc-700">Master Web Éditorial 2013 - 2015</H4>
           <P className="text-zinc-500">
-            Gestion de projet, stratégie de contenus, SEO, UX design, culture
-            numérique, programmation web
+            Project management, content strategy, SEO, UX design, web
+            programming
           </P>
         </MainArticle>
 
@@ -123,7 +123,7 @@ export default () => {
               <span>2012 - 2013</span>
             </H4>
             <P className="text-zinc-500">
-              Techniques de rédaction web, référencement SEO/SMO, ergonomie web
+              Web writing techniques, SEO/SMO, UX design
             </P>
           </SubArticle>
 
@@ -133,7 +133,8 @@ export default () => {
               <span>2010 - 2012</span>
             </H4>
             <P className="text-zinc-500">
-              Infographie, programmation web, communication, audiovisuel
+              Graphic design and CAD, web programming, communication,
+              audiovisual
             </P>
           </SubArticle>
         </MainArticle>
