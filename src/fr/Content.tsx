@@ -32,7 +32,8 @@ export default () => {
           <UL className="text-zinc-500">
             <li>
               Développement au sein de l'équipe front-end d'outils
-              d'administration à usage interne et pour la clientèle :
+              d'administration à usage interne et pour la clientèle sur la base
+              d'un design system spécifique:
               <UL>
                 <li>
                   Outil d'édition de formulaire avec TypeScript, Next.js,
@@ -112,7 +113,7 @@ export default () => {
               Vitest, Testing Library, Playwright, TailwindCSS, vanilla-extract,
               SASS et méthodologie BEM
             </li>
-            <li>Manjaro Linux, MacOS, Bash, Git</li>
+            <li>Linux, MacOS, Bash, Git</li>
           </UL>
         </MainArticle>
       </Section>

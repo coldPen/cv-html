@@ -31,12 +31,27 @@ export default () => {
           </H4>
           <UL className="text-zinc-500">
             <li>
-              Development of the company's internal management application with
-              NextJS, TypeScript and MUI
+              Development within the front-end team of administration tools for
+              internal use and for customers, based on a specific design system:
+              <UL>
+                <li>
+                  Form-editing tool with TypeScript, Next.js, zustand and MUI
+                </li>
+                <li>
+                  JSONForms-based form rendering tool with TypeScript, Remix,
+                  React Aria Components and vanilla-extract
+                </li>
+              </UL>
             </li>
-            <li>Writing Jest and Testing Library unit tests</li>
-            <li>Support in training the team's developers</li>
-            <li>Involvement in UX design process</li>
+            <li>
+              Development of an API for generating PDF documents from HTML code
+              and data extraction from PDF documents with TypeScript, Express
+              and Puppeteer
+            </li>
+            <li>
+              Continuous addition of unit and integration tests (Jest, Vitest,
+              React Testing Library) and end-to-end testing (Playwright)
+            </li>
           </UL>
         </MainArticle>
 
@@ -95,7 +110,7 @@ export default () => {
               NextJS / React, Redux, GraphQL / Apollo Client, Jest + Enzyme /
               Testing Library, TailwindCSS, SASS and BEM methodology
             </li>
-            <li>Manjaro Linux, MacOS, Bash, Git</li>
+            <li>Linux, MacOS, Bash, Git</li>
           </UL>
         </MainArticle>
       </Section>

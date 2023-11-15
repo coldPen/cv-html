@@ -6,8 +6,8 @@ export default () => {
       <MainArticle>
         <H2>About</H2>
         <P>
-          I am a front-end developer with proven experience in developing
-          business applications.
+          I am a front&#8209;end developer with proven experience in developing
+          business-oriented applications.
         </P>
         <P>
           I also have a strong interest for integration tasks and projects that
