@@ -19,6 +19,11 @@ export default () => {
           of attention to my training on a daily basis and I like to exchange
           and share on these subjects.
         </P>
+        <P>
+          I am aspiring to extend my skills into full-stack development in the
+          long term, aiming to gain a comprehensive understanding of both
+          front-end and back-end technologies.
+        </P>
       </MainArticle>
       <MainArticle>
         <H2 className="text-lg font-bold uppercase">Contact details</H2>

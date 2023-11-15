@@ -19,6 +19,11 @@ export default () => {
           haute attention à ma formation au quotidien et j'aime échanger et
           partager sur ces sujets.
         </P>
+        <P>
+          J'aspire à étendre mes compétences au développement full-stack à long
+          terme, dans le but d'acquérir une compréhension complète des
+          technologies front-end et back-end.
+        </P>
       </MainArticle>
       <MainArticle>
         <H2 className="text-lg font-bold uppercase">Coordonnées</H2>
