@@ -109,9 +109,9 @@ export default () => {
           <H3 className="text-zinc-700">Frameworks / Librairies / Systèmes</H3>
           <UL className="text-zinc-500">
             <li>
-              React, Redux, Zustand, Remix, Next.js, GraphQL / Apollo Client,
-              Jest / Vitest, Testing Library, Playwright, TailwindCSS,
-              vanilla-extract, SASS et méthodologie BEM
+              React, Redux, Zustand, React Router, Remix, Next.js, GraphQL /
+              Apollo Client, Jest / Vitest, Testing Library, Playwright,
+              TailwindCSS, vanilla-extract, SASS et méthodologie BEM
             </li>
             <li>Linux, MacOS, Bash, Git</li>
           </UL>
