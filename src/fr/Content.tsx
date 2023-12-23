@@ -12,7 +12,7 @@ import {
 
 export default () => {
   return (
-    <main className="col-span-2 flex flex-col justify-center gap-5 bg-white p-8">
+    <main className="col-span-2 flex flex-col justify-center gap-5 bg-white px-8 py-6">
       <H1 className="text-zinc-700">
         <span className="text-3xl">Lucas Leroux</span>
         <span className="text-lg">Développeur front-end</span>
@@ -109,9 +109,9 @@ export default () => {
           <H3 className="text-zinc-700">Frameworks / Librairies / Systèmes</H3>
           <UL className="text-zinc-500">
             <li>
-              Next.js, React, Redux, Zustand, GraphQL / Apollo Client, Jest /
-              Vitest, Testing Library, Playwright, TailwindCSS, vanilla-extract,
-              SASS et méthodologie BEM
+              React, Redux, Zustand, Remix, Next.js, GraphQL / Apollo Client,
+              Jest / Vitest, Testing Library, Playwright, TailwindCSS,
+              vanilla-extract, SASS et méthodologie BEM
             </li>
             <li>Linux, MacOS, Bash, Git</li>
           </UL>
