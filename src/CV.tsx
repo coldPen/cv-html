@@ -1,5 +1,5 @@
-import Content from "./fr/Content";
-import Sidebar from "./fr/Sidebar";
+import Content from "./en/Content";
+import Sidebar from "./en/Sidebar";
 
 function CV() {
   return (
