@@ -15,7 +15,9 @@ export default () => {
     <main className="col-span-2 flex flex-col justify-center gap-5 bg-white px-8 py-6">
       <H1 className="text-zinc-700">
         <span className="text-3xl">Lucas Leroux</span>
-        <span className="text-lg">Développeur front-end</span>
+        <span className="text-lg">
+          Développeur front-end | React & TypeScript
+        </span>
       </H1>
 
       <hr />
@@ -26,29 +28,30 @@ export default () => {
         <MainArticle>
           <H3 className="text-zinc-700">Développeur web front-end</H3>
           <H4 className="text-zinc-700">
-            <span>Subclic</span>
-            <span>Mai 2022 - Auj.</span>
+            <span>Subclic | SaaS de gestion de sous-traitance BTP</span>
+            <span>Mai 2022 - Janvier 2024</span>
           </H4>
           <UL className="text-zinc-500">
             <li>
               Développement au sein de l'équipe front-end d'outils
-              d'administration à usage interne et pour la clientèle sur la base
-              d'un design system spécifique:
+              d'administration à usage interne et pour la clientèle :
               <UL>
                 <li>
-                  Outil d'édition de formulaire avec TypeScript, Next.js,
-                  zustand et MUI
+                  Outil d'édition de formulaire avec <strong>TypeScript</strong>
+                  , <strong>Next.js</strong>, zustand et MUI
                 </li>
                 <li>
-                  Outil de rendu de formulaire suivant la norme JSONForms avec
-                  TypeScript, Remix, React Aria Components et vanilla-extract
+                  Outil de rendu de formulaire suivant la norme JSONForms avec{" "}
+                  <strong>TypeScript</strong>, <strong>Remix</strong>, React
+                  Aria Components et vanilla-extract sur la base d'un{" "}
+                  <strong>design system</strong> spécifique
                 </li>
               </UL>
             </li>
             <li>
               Développement d'une API de génération de document PDF depuis du
-              code HTML et d'extraction de données depuis un document PDF avec
-              TypeScript, Express et Puppeteer
+              code HTML et d'extraction de données depuis un document PDF avec{" "}
+              <strong>TypeScript</strong>, <strong>Express</strong> et Puppeteer
             </li>
             <li>
               Ajout continu de tests unitaires et d'intégration (Jest, Vitest,
@@ -60,14 +63,15 @@ export default () => {
         <MainArticle>
           <H3 className="text-zinc-700">Développeur web front-end</H3>
           <H4 className="text-zinc-700">
-            <span>Delko</span>
-            <span>Déc. 2020 - Mai 2022</span>
+            <span>Delko | Réseau de garages automobiles en franchise</span>
+            <span>Décembre 2020 - Mai 2022</span>
           </H4>
           <UL className="text-zinc-500">
             <li>
               Développement front d'un CRM interne (gestion administrative,
               catalogue produits, etc.) pour le personnel et les franchisés de
-              la chaîne avec React, Redux et Material-UI
+              la chaîne avec <strong>React</strong>, <strong>Redux</strong> et
+              MUI
             </li>
             <li>
               Rédaction de tests unitaires et d'intégration Jest et Enzyme
@@ -77,7 +81,7 @@ export default () => {
 
         <MainArticle>
           <H3 className="text-zinc-700">Développeur web freelance</H3>
-          <H4 className="text-zinc-700">Oct. 2019 - Nov. 2020</H4>
+          <H4 className="text-zinc-700">Octobre 2019 - Novembre 2020</H4>
           <P className="text-zinc-500">
             Développement de solutions web React / Gatsby / Eleventy
           </P>
@@ -86,7 +90,7 @@ export default () => {
         <MainArticle>
           <H3 className="text-zinc-700">Développeur web front-end</H3>
           <H4 className="text-zinc-700">
-            <span>WeCashUp</span>
+            <span>WeCashUp | Solution de paiement pour l'Afrique</span>
             <span>Juin 2016 - Juin 2018</span>
           </H4>
           <P className="text-zinc-500">
@@ -101,19 +105,26 @@ export default () => {
         <H2 className="text-zinc-700">Compétences professionnelles</H2>
 
         <MainArticle>
-          <H3 className="text-zinc-700">Langages</H3>
-          <P className="text-zinc-500">TypeScript / JavaScript, HTML / CSS</P>
-        </MainArticle>
-
-        <MainArticle>
-          <H3 className="text-zinc-700">Frameworks / Librairies / Systèmes</H3>
+          <H3 className="text-zinc-700">Développement Front-end</H3>
           <UL className="text-zinc-500">
             <li>
-              React, Redux, Zustand, React Router, Remix, Next.js, GraphQL /
-              Apollo Client, Jest / Vitest, Testing Library, Playwright,
-              TailwindCSS, vanilla-extract, SASS et méthodologie BEM
+              Maîtrise de <strong>TypeScript</strong>/
+              <strong>JavaScript</strong> et technologies web modernes
+              (HTML5/CSS3)
             </li>
-            <li>Linux, MacOS, Bash, Git</li>
+            <li>
+              Expertise React et son écosystème (<strong>Redux</strong>,{" "}
+              <strong>Next.js</strong>, <strong>Remix</strong>), avec focus sur
+              la qualité du code via <strong>TDD</strong>
+            </li>
+            <li>
+              Architecture front-end robuste :{" "}
+              <strong>Clean Architecture</strong>, tests (<strong>Jest</strong>,{" "}
+              <strong>Testing Library</strong>,<strong>Playwright</strong>)
+            </li>
+            <li>
+              Environnement : Linux/MacOS, <strong>Git</strong>, shell
+            </li>
           </UL>
         </MainArticle>
       </Section>

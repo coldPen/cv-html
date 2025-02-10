@@ -27,26 +27,29 @@ export default () => {
           <H3 className="text-zinc-700">Front-end developer</H3>
           <H4 className="text-zinc-700">
             <span>Subclic</span>
-            <span>May 2022 - Today</span>
+            <span>May 2022 - January 2024</span>
           </H4>
           <UL className="text-zinc-500">
             <li>
               Development within the front-end team of administration tools for
-              internal use and for customers, based on a specific design system:
+              internal use and for customers:
               <UL>
                 <li>
-                  Form-editing tool with TypeScript, Next.js, zustand and MUI
+                  Form-editing tool with <strong>TypeScript</strong>,{" "}
+                  <strong>Next.js</strong>, zustand and MUI
                 </li>
                 <li>
-                  JSONForms-based form rendering tool with TypeScript, Remix,
-                  React Aria Components and vanilla-extract
+                  JSONForms-based form rendering tool with{" "}
+                  <strong>TypeScript</strong>, <strong>Remix</strong>, React
+                  Aria Components and vanilla-extract based on a specific{" "}
+                  <strong>design system</strong>
                 </li>
               </UL>
             </li>
             <li>
               Development of an API for generating PDF documents from HTML code
-              and data extraction from PDF documents with TypeScript, Express
-              and Puppeteer
+              and data extraction from PDF documents with{" "}
+              <strong>TypeScript</strong>, Express and Puppeteer
             </li>
             <li>
               Continuous addition of unit and integration tests (Jest, Vitest,
@@ -124,7 +127,7 @@ export default () => {
           <H4 className="text-zinc-700">Master Web Éditorial 2013 - 2015</H4>
           <P className="text-zinc-500">
             Project management, content strategy, SEO, UX design, web
-            programming
+            development
           </P>
         </MainArticle>
 
@@ -149,7 +152,7 @@ export default () => {
               <span>2010 - 2012</span>
             </H4>
             <P className="text-zinc-500">
-              Graphic design and CAD, web programming, communication,
+              Graphic design and CAD, web development, communication,
               audiovisual
             </P>
           </SubArticle>

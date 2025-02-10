@@ -20,9 +20,7 @@ export default () => {
           and share on these subjects.
         </P>
         <P>
-          I am aspiring to extend my skills into full-stack development in the
-          long term, aiming to gain a comprehensive understanding of both
-          front-end and back-end technologies.
+          I'm now looking to extend my experience to full-stack development.
         </P>
       </MainArticle>
       <MainArticle>
@@ -58,9 +56,9 @@ export default () => {
           <div>
             <H3>Adresse</H3>
             <P>
-              46 rue Granoux
+              20B Rue Garibaldi
               <br />
-              13004 Marseille
+              38600 Fontaine
             </P>
           </div>
         </address>

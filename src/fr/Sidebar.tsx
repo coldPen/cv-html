@@ -6,23 +6,17 @@ export default () => {
       <MainArticle>
         <H2>À propos</H2>
         <P>
-          Je suis un développeur front&#8209;end avec une expérience avérée en
-          matière de développement d'application à visée professionnelle.
+          Développeur front-end spécialisé en <strong>React</strong> et
+          <strong>TypeScript</strong>, je conçois des applications
+          professionnelles robustes en privilégiant les bonnes pratiques (Clean
+          Architecture, TDD) et en créant des composants d'interface
+          réutilisables entièrement testés avec des librairies telles que
+          <strong>TailwindCSS</strong>, MUI ou vanilla-extract.
         </P>
         <P>
-          J'ai également un fort attrait pour les tâches d'intégration et les
-          projets valorisant la construction d'éléments d'interfaces cohérents,
-          testés et réutilisables.
-        </P>
-        <P>
-          Autonome et passionné par mon environnement technique, je prête une
-          haute attention à ma formation au quotidien et j'aime échanger et
-          partager sur ces sujets.
-        </P>
-        <P>
-          J'aspire à étendre mes compétences au développement full-stack à long
-          terme, dans le but d'acquérir une compréhension complète des
-          technologies front-end et back-end.
+          En veille permanente sur les évolutions technologiques du web,
+          j'oriente actuellement ma progression vers le développement full-stack
+          avec un focus sur l'architecture hexagonale et le DDD.
         </P>
       </MainArticle>
       <MainArticle>
@@ -58,9 +52,9 @@ export default () => {
           <div>
             <H3>Adresse</H3>
             <P>
-              46 rue Granoux
+              20B Rue Garibaldi
               <br />
-              13004 Marseille
+              38600 Fontaine
             </P>
           </div>
         </address>
