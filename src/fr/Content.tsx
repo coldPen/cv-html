@@ -83,7 +83,8 @@ export default () => {
           <H3 className="text-zinc-700">Développeur web freelance</H3>
           <H4 className="text-zinc-700">Octobre 2019 - Novembre 2020</H4>
           <P className="text-zinc-500">
-            Développement de solutions web React / Gatsby / Eleventy
+            Développement de solutions web React / Gatsby / Eleventy avec{" "}
+            <strong>TailwindCSS</strong> et Sass
           </P>
         </MainArticle>
 

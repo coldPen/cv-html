@@ -1,0 +1,205 @@
+{
+  "$schema": "https://raw.githubusercontent.com/jsonresume/resume-schema/v1.0.0/schema.json",
+  "basics": {
+    "name": "Lucas Leroux",
+    "label": "Développeur front-end | React & TypeScript",
+    "email": "lucas.leroux@pm.me",
+    "phone": "+33645716476",
+    "summary": "Développeur front-end spécialisé en **React** et **TypeScript**, je conçois des applications professionnelles robustes en privilégiant les bonnes pratiques (Clean Architecture, TDD) et en créant des composants d'interface réutilisables entièrement testés.\n\nEn veille permanente sur les évolutions technologiques du web, j'oriente actuellement ma progression vers le développement full-stack avec un focus sur l'architecture hexagonale et le DDD.",
+    "location": {
+      "address": "20B rue Garibaldi",
+      "postalCode": "38600",
+      "city": "Fontaine"
+    },
+    "profiles": [
+      {
+        "network": "LinkedIn",
+        "username": "llrx",
+        "url": "https://www.linkedin.com/in/llrx/"
+      }
+    ]
+  },
+  "work": [
+    {
+      "name": "Subclic",
+      "position": "Développeur web front-end",
+      "startDate": "2022-05-01",
+      "endDate": "2024-01-31",
+      "summary": "Au sein de l'équipe front-end, j'ai contribué au développement d'outils d'administration web internes et pour la clientèle. Mon rôle impliquait la création d'interfaces utilisateur modernes et performantes, tout en appliquant des pratiques de développement rigoureuses et en assurant la qualité du code.",
+      "highlights": [
+        "Conception et développement d'un outil d'édition de formulaire complexe avec TypeScript, Next.js, zustand et MUI, optimisant le processus de création de formulaires.",
+        "Création d'un outil de rendu de formulaires JSONForms utilisant TypeScript, Remix, React Aria Components et vanilla-extract, basé sur un design system spécifique, assurant une expérience utilisateur cohérente.",
+        "Développement d'une API pour la génération de documents PDF à partir de HTML et l'extraction de données PDF (TypeScript, Express, Puppeteer), automatisant les processus documentaires.",
+        "Implémentation d'une suite complète de tests (unitaires, d'intégration, end-to-end) avec Jest, Vitest, React Testing Library et Playwright, renforçant la fiabilité des applications."
+      ]
+    },
+    {
+      "name": "Delko",
+      "position": "Développeur web front-end",
+      "startDate": "2020-12-01",
+      "endDate": "2022-05-01",
+      "summary": "J'ai participé au développement front-end d'un CRM interne destiné au personnel et aux franchisés de la chaîne Delko. Ce projet visait à améliorer la gestion administrative et la gestion du catalogue produits.",
+      "highlights": [
+        "Développement d'un CRM interne complet utilisant React, Redux et Material-UI, améliorant l'efficacité opérationnelle de l'entreprise.",
+        "Mise en place de tests unitaires et d'intégration avec Jest et Enzyme, garantissant la stabilité et la maintenabilité du code."
+      ]
+    },
+    {
+      "name": "Freelance",
+      "position": "Développeur web freelance",
+      "startDate": "2019-10-01",
+      "endDate": "2020-11-01",
+      "summary": "En tant que freelance, j'ai travaillé sur divers projets web, me concentrant sur le développement de solutions modernes et performantes pour répondre aux besoins spécifiques des clients.",
+      "highlights": [
+        "Conception et développement de sites web et d'applications utilisant React, Gatsby et Eleventy, offrant des solutions sur mesure et optimisées pour les performances.",
+        "Gestion autonome de projets, de la phase de conception à la livraison, en assurant une communication efficace avec les clients."
+      ]
+    },
+    {
+      "name": "WeCashUp",
+      "position": "Développeur web front-end",
+      "startDate": "2016-06-01",
+      "endDate": "2018-06-01",
+      "summary": "Chez WeCashUp, j'ai été impliqué dans la conception, le développement et le suivi d'applications web pour leur service de paiement universel. Mon travail a contribué à améliorer l'expérience utilisateur et l'efficacité des processus de paiement.",
+      "highlights": [
+        "Développement d'un formulaire de paiement intuitif et sécurisé, améliorant le taux de conversion des transactions.",
+        "Création d'interfaces back-office performantes utilisant jQuery, ES6 et React, optimisant la gestion interne des paiements.",
+        "Participation à l'évolution technologique de la stack front-end, passant progressivement de jQuery à React pour améliorer la maintenabilité et les performances."
+      ]
+    }
+  ],
+  "volunteer": [
+    {
+      "organization": "CoderDojo",
+      "position": "Teacher",
+      "url": "http://coderdojo.example.com/",
+      "startDate": "2012-01-01",
+      "endDate": "2013-01-01",
+      "summary": "Global movement of free coding clubs for young people.",
+      "highlights": ["Awarded 'Teacher of the Month'"]
+    }
+  ],
+  "education": [
+    {
+      "institution": "Université de Poitiers",
+      "area": "Web Éditorial",
+      "studyType": "Master",
+      "startDate": "2013-01-01",
+      "endDate": "2015-01-01",
+      "courses": [
+        "Gestion de projet",
+        "Stratégie de contenus",
+        "SEO",
+        "UX design",
+        "Culture numérique",
+        "Programmation web"
+      ]
+    },
+    {
+      "institution": "Université de Lorraine",
+      "area": "ATC Technologies de l’Information et de la Communication",
+      "studyType": "LP",
+      "startDate": "2012-01-01",
+      "endDate": "2013-01-01",
+      "courses": [
+        "Techniques de rédaction web",
+        "Référencement SEO/SMO",
+        "Ergonomie web"
+      ]
+    },
+    {
+      "institution": "Université de Lorraine",
+      "area": "Services et Réseaux de Communication",
+      "studyType": "DUT",
+      "startDate": "2010-01-01",
+      "endDate": "2012-01-01",
+      "courses": [
+        "Infographie",
+        "Programmation web",
+        "Communication",
+        "Audiovisuel"
+      ]
+    }
+  ],
+  "awards": [
+    {
+      "title": "Digital Compression Pioneer Award",
+      "date": "2014-11-01",
+      "awarder": "Techcrunch",
+      "summary": "There is no spoon."
+    }
+  ],
+  "publications": [
+    {
+      "name": "Video compression for 3d media",
+      "publisher": "Hooli",
+      "releaseDate": "2014-10-01",
+      "url": "http://en.wikipedia.org/wiki/Silicon_Valley_(TV_series)",
+      "summary": "Innovative middle-out compression algorithm that changes the way we store data."
+    }
+  ],
+  "skills": [
+    {
+      "name": "Développement Front-end",
+      "level": "Expert",
+      "keywords": [
+        "TypeScript",
+        "JavaScript",
+        "HTML5",
+        "CSS3",
+        "React",
+        "Redux",
+        "Next.js",
+        "Remix",
+        "TDD",
+        "Clean Architecture",
+        "Jest",
+        "Testing Library",
+        "Playwright",
+        "Linux",
+        "MacOS",
+        "Git",
+        "Shell"
+      ]
+    }
+  ],
+  "languages": [
+    {
+      "language": "Français",
+      "fluency": "Locuteur natif"
+    },
+    {
+      "language": "Anglais",
+      "fluency": "Capacité professionnelle (TOEIC 990/990)"
+    }
+  ],
+  "references": [
+    {
+      "name": "Erlich Bachman",
+      "reference": "It is my pleasure to recommend Richard, his performance working as a consultant for Main St. Company proved that he will be a valuable addition to any company."
+    }
+  ],
+  "projects": [
+    {
+      "name": "Miss Direction",
+      "description": "A mapping engine that misguides you",
+      "highlights": [
+        "Won award at AIHacks 2016",
+        "Built by all women team of newbie programmers",
+        "Using modern technologies such as GoogleMaps, Chrome Extension and Javascript"
+      ],
+      "keywords": ["GoogleMaps", "Chrome Extension", "Javascript"],
+      "startDate": "2016-08-24",
+      "endDate": "2016-08-24",
+      "url": "http://missdirection.example.com",
+      "roles": ["Team lead", "Designer"],
+      "entity": "Smoogle",
+      "type": "application"
+    }
+  ],
+  "meta": {
+    "canonical": "https://raw.githubusercontent.com/jsonresume/resume-schema/v1.0.0/sample.resume.json",
+    "version": "v1.0.0",
+    "lastModified": "2017-12-24T15:53:00"
+  }
+}
