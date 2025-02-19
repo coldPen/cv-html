@@ -3,23 +3,25 @@ import { H2, H3, MainArticle, P } from "../Components";
 export default () => {
   return (
     <aside className="col-span-1 flex flex-col items-start justify-center  gap-4 bg-zinc-50 p-8 text-zinc-800">
-      <MainArticle>
+      <MainArticle className="gap-2">
         <H2>À propos</H2>
         <P>
-          Développeur front-end spécialisé en <strong>React</strong> et
+          Développeur front-end spécialisé en <strong>React</strong> et{" "}
           <strong>TypeScript</strong>, je conçois des applications
           professionnelles robustes en privilégiant les bonnes pratiques (Clean
           Architecture, TDD) et en créant des composants d'interface
-          réutilisables entièrement testés avec des librairies telles que
+          réutilisables entièrement testés avec des librairies telles que{" "}
           <strong>TailwindCSS</strong>, MUI ou vanilla-extract.
         </P>
         <P>
           En veille permanente sur les évolutions technologiques du web,
-          j'oriente actuellement ma progression vers le développement full-stack
-          avec un focus sur l'architecture hexagonale et le DDD.
+          j'oriente actuellement ma progression vers le{" "}
+          <strong>développement full-stack</strong>, prêt à maîtriser tout
+          nouveau langage ou framework pour continuer à innover et à relever de
+          nouveaux défis dans ce domaine.
         </P>
       </MainArticle>
-      <MainArticle>
+      <MainArticle className="gap-2">
         <H2 className="text-lg font-bold uppercase">Coordonnées</H2>
         <address className="flex flex-col gap-1 not-italic">
           <div>

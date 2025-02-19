@@ -3,6 +3,7 @@ import {
   H2,
   H3,
   H4,
+  LI,
   MainArticle,
   P,
   Section,
@@ -28,51 +29,62 @@ export default () => {
         <MainArticle>
           <H3 className="text-zinc-700">Développeur web front-end</H3>
           <H4 className="text-zinc-700">
-            <span>Subclic | SaaS de gestion de sous-traitance BTP</span>
+            <span>
+              <strong>Subclic</strong> | SaaS de gestion de sous-traitance BTP
+            </span>
             <span>Mai 2022 - Janvier 2024</span>
           </H4>
           <UL className="text-zinc-500">
-            <li>
+            <LI>
               Développement au sein de l'équipe front-end d'outils
               d'administration à usage interne et pour la clientèle :
               <UL>
-                <li>
+                <LI>
                   Outil d'édition de formulaire avec <strong>TypeScript</strong>
                   , <strong>Next.js</strong>, zustand et MUI
-                </li>
-                <li>
+                </LI>
+                <LI>
                   Outil de rendu de formulaire suivant la norme JSONForms avec{" "}
                   <strong>TypeScript</strong>, <strong>Remix</strong>, React
                   Aria Components et vanilla-extract sur la base d'un{" "}
                   <strong>design system</strong> spécifique
-                </li>
+                </LI>
+                <LI>
+                  Transposition des composants React du{" "}
+                  <strong>design system</strong> vers{" "}
+                  <strong>Ruby on Rails ViewComponent</strong> pour leur
+                  adoption dans la stack legacy
+                </LI>
               </UL>
-            </li>
-            <li>
+            </LI>
+            <LI>
               Développement d'une API de génération de document PDF depuis du
               code HTML et d'extraction de données depuis un document PDF avec{" "}
               <strong>TypeScript</strong>, <strong>Express</strong> et Puppeteer
-            </li>
-            <li>
+            </LI>
+            <LI>
               Ajout continu de tests unitaires et d'intégration (Jest, Vitest,
               React Testing Library) et end-to-end (Playwright)
-            </li>
+            </LI>
           </UL>
         </MainArticle>
 
         <MainArticle>
           <H3 className="text-zinc-700">Développeur web front-end</H3>
           <H4 className="text-zinc-700">
-            <span>Delko | Réseau de garages automobiles en franchise</span>
+            <span>
+              <strong>Delko</strong> | Réseau de garages automobiles en
+              franchise
+            </span>
             <span>Décembre 2020 - Mai 2022</span>
           </H4>
           <UL className="text-zinc-500">
-            <li>
+            <LI>
               Développement front d'un CRM interne (gestion administrative,
               catalogue produits, etc.) pour le personnel et les franchisés de
               la chaîne avec <strong>React</strong>, <strong>Redux</strong> et
               MUI
-            </li>
+            </LI>
             <li>
               Rédaction de tests unitaires et d'intégration Jest et Enzyme
             </li>
@@ -83,14 +95,17 @@ export default () => {
           <H3 className="text-zinc-700">Développeur web freelance</H3>
           <H4 className="text-zinc-700">Octobre 2019 - Novembre 2020</H4>
           <P className="text-zinc-500">
-            Développement de solutions web React / Gatsby / Eleventy
+            Développement de solutions web React / Gatsby / Eleventy, mises en
+            page avec <strong>TailwindCSS</strong> ou <strong>SCSS</strong>
           </P>
         </MainArticle>
 
         <MainArticle>
           <H3 className="text-zinc-700">Développeur web front-end</H3>
           <H4 className="text-zinc-700">
-            <span>WeCashUp | Solution de paiement pour l'Afrique</span>
+            <span>
+              <strong>WeCashUp</strong> | Solution de paiement pour l'Afrique
+            </span>
             <span>Juin 2016 - Juin 2018</span>
           </H4>
           <P className="text-zinc-500">
@@ -105,27 +120,50 @@ export default () => {
         <H2 className="text-zinc-700">Compétences professionnelles</H2>
 
         <MainArticle>
-          <H3 className="text-zinc-700">Développement Front-end</H3>
           <UL className="text-zinc-500">
-            <li>
+            <LI>
               Maîtrise de <strong>TypeScript</strong>/
               <strong>JavaScript</strong> et technologies web modernes
               (HTML5/CSS3)
-            </li>
-            <li>
+            </LI>
+            <LI>
               Expertise React et son écosystème (<strong>Redux</strong>,{" "}
               <strong>Next.js</strong>, <strong>Remix</strong>), avec focus sur
               la qualité du code via <strong>TDD</strong>
-            </li>
-            <li>
+            </LI>
+            <LI>
               Architecture front-end robuste :{" "}
               <strong>Clean Architecture</strong>, tests (<strong>Jest</strong>,{" "}
               <strong>Testing Library</strong>,<strong>Playwright</strong>)
-            </li>
-            <li>
+            </LI>
+            <LI>
               Environnement : Linux/MacOS, <strong>Git</strong>, shell
-            </li>
+            </LI>
           </UL>
+        </MainArticle>
+      </Section>
+
+      <Section>
+        <H2 className="text-zinc-700">Bénévolat</H2>
+        <MainArticle>
+          <H3 className="text-zinc-700">
+            Bénévole Ateliers et Permanences connectées
+          </H3>
+          <H4 className="text-zinc-700">
+            <span>
+              <strong>Emmaüs Connect</strong> | Lutte contre l'exclusion
+              numérique et sociale
+            </span>
+            <span>Octobre 2015 - Février 2017</span>
+          </H4>
+          <P className="text-zinc-500">
+            Animation des ateliers du programme Connexions Solidaires et
+            accompagnement des bénéficiaires au cours de permanences aux
+            thématiques variées. Le programme Connexions Solidaires vise à faire
+            du numérique un levier d’insertion pour les personnes en difficulté,
+            en leur faisant acquérir un "bagage numérique minimum" en adéquation
+            avec leurs besoins respectifs.
+          </P>
         </MainArticle>
       </Section>
 
@@ -134,7 +172,7 @@ export default () => {
 
         <MainArticle>
           <H3 className="text-zinc-700">Université de Poitiers</H3>
-          <H4 className="text-zinc-700">Master Web Éditorial 2013 - 2015</H4>
+          <H4 className="text-zinc-700">Master Web Éditorial | 2013 - 2015</H4>
           <P className="text-zinc-500">
             Gestion de projet, stratégie de contenus, SEO, UX design, culture
             numérique, programmation web
@@ -146,10 +184,8 @@ export default () => {
 
           <SubArticle>
             <H4 className="text-zinc-700">
-              <span>
-                LP ATC Technologies de l’Information et de la Communication
-              </span>
-              <span>2012 - 2013</span>
+              LP ATC Technologies de l’Information et de la Communication | 2012
+              - 2013
             </H4>
             <P className="text-zinc-500">
               Techniques de rédaction web, référencement SEO/SMO, ergonomie web
@@ -158,8 +194,7 @@ export default () => {
 
           <SubArticle>
             <H4 className="text-zinc-700">
-              <span>DUT Services et Réseaux de Communication</span>
-              <span>2010 - 2012</span>
+              DUT Services et Réseaux de Communication | 2010 - 2012
             </H4>
             <P className="text-zinc-500">
               Infographie, programmation web, communication, audiovisuel

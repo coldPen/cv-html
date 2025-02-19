@@ -5,19 +5,15 @@ type Props = PropsWithChildren & {
 };
 
 export const Section: React.FC<Props> = ({ children, className }) => (
-  <section className={`flex flex-col gap-2 ${className ?? ""}`}>
+  <section className={`flex flex-col gap-3 ${className ?? ""}`}>
     {children}
   </section>
 );
 export const MainArticle: React.FC<Props> = ({ children, className }) => (
-  <article className={`flex flex-col gap-2 ${className ?? ""}`}>
-    {children}
-  </article>
+  <article className={`flex flex-col ${className ?? ""}`}>{children}</article>
 );
 export const SubArticle: React.FC<Props> = ({ children, className }) => (
-  <article className={`flex flex-col gap-1 ${className ?? ""}`}>
-    {children}
-  </article>
+  <article className={`flex flex-col ${className ?? ""}`}>{children}</article>
 );
 export const H1: React.FC<Props> = ({ children, className }) => (
   <h1 className={`flex flex-col font-black uppercase ${className ?? ""}`}>
@@ -41,7 +37,8 @@ export const P: React.FC<Props> = ({ children, className }) => (
   <p className={`leading-tight ${className ?? ""}`}>{children}</p>
 );
 export const UL: React.FC<Props> = ({ children, className }) => (
-  <ul className={`list-disc pl-5 leading-tight ${className ?? ""}`}>
-    {children}
-  </ul>
+  <ul className={`list-disc pl-5 ${className ?? ""}`}>{children}</ul>
+);
+export const LI: React.FC<Props> = ({ children, className }) => (
+  <li className={`leading-tight ${className ?? ""}`}>{children}</li>
 );
