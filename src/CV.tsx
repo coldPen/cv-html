@@ -3,7 +3,7 @@ import Sidebar from "./fr/Sidebar";
 
 function CV() {
   return (
-    <div className="grid h-screen grid-cols-3">
+    <div className="flex flex-col">
       <Sidebar />
       <Content />
     </div>

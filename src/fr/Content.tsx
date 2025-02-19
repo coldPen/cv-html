@@ -14,15 +14,6 @@ import {
 export default () => {
   return (
     <main className="col-span-2 flex flex-col justify-center gap-5 bg-white px-8 py-6">
-      <H1 className="text-zinc-700">
-        <span className="text-3xl">Lucas Leroux</span>
-        <span className="text-lg">
-          Développeur front-end | React & TypeScript
-        </span>
-      </H1>
-
-      <hr />
-
       <Section>
         <H2 className="text-zinc-700">Postes occupés</H2>
 
